@@ -20,7 +20,7 @@ A command-line tool written in Python3 for calculating and printing the Hückel 
 
 python huckel-solver.py c 6
 
-### Using Flags
+### Using flags
 
 python huckel-solver.py -t cyclic-polyene -n 6
 python huckel-solver.py --type cyclic-polyene --num_sites 6
@@ -28,6 +28,7 @@ python huckel-solver.py --type cyclic-polyene --num_sites 6
 ## Examples
 
 $ python huckel-solver.py c 6
+
 +------------+--------------+
 |   Energies |   Degeneracy |
 +============+==============+
