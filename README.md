@@ -38,4 +38,5 @@ $ python huckel-solver.py c 6
 | -2.000   |     1     |
 
 Number of orbitals: 6
+
 Number of unique orbitals: 4
