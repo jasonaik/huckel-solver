@@ -271,6 +271,7 @@ if __name__ == "__main__":
         new_degen = find_degeneracies(new_eigen)
         
         rounded_energies = [[round(n, 3) for n in i] for i in new_degen]
+        # Flatten nested list into regular list
         flattened_energies = [group[0] for group in rounded_energies]
         num_degen = [len(i) for i in new_degen]
         
