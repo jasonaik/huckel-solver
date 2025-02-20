@@ -161,6 +161,8 @@ def make_buckyball_matrix(n):
     the hardcoded matrix for buckyballs. The argument n is just a placeholder for the CLI. Not sure if empty arguments are bad practice.
     It does save me an if-else statement I suppose.
     """
+    
+    # Adjacency matrix taken from https://houseofgraphs.org/graphs/1389
     adj_matrix_str = """
     011100000000000000000000000000000000000000000000000000000000
     100000000000000000000000000000000000000000000000000000110000
